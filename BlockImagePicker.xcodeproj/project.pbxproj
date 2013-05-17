@@ -95,7 +95,6 @@
 				356F8D9B1717BCDD00F6C8D9 /* ViewController.xib */,
 				356F8D871717BCDD00F6C8D9 /* Supporting Files */,
 			);
-			name = BlockImagePicker;
 			path = BlockImagePicker;
 			sourceTree = "<group>";
 		};
