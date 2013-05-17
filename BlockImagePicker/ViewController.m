@@ -79,10 +79,6 @@
                                                                                                          onFinishingBlock:finishingBlock
                                                                                                          onCancelingBlock:cancelingBlock];
     
-    
-    
-    
-    
     void (^completionBlock)() = ^()
     {
         
@@ -110,10 +106,6 @@
     BlockImagePickerController *blockImagePickerController = [[BlockImagePickerController alloc] initWithCameraSourceType:UIImagePickerControllerSourceTypePhotoLibrary
                                                                                                          onFinishingBlock:finishingBlock
                                                                                                          onCancelingBlock:cancelingBlock];
-    
-    
-    
-    
     
     void (^completionBlock)() = ^()
     {
