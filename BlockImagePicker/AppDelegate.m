@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  TestImagePicker
+//  BlockImagePicker
 //
 //  Created by Wipoo Shinsirikul on 4/12/56 BE.
 //  Copyright (c) 2556 Wipoo Shinsirikul. All rights reserved.

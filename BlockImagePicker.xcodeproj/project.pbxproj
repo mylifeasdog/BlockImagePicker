@@ -18,17 +18,18 @@
 		356F8D971717BCDD00F6C8D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 356F8D961717BCDD00F6C8D9 /* Default-568h@2x.png */; };
 		356F8D9A1717BCDD00F6C8D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F8D991717BCDD00F6C8D9 /* ViewController.m */; };
 		356F8D9D1717BCDD00F6C8D9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356F8D9B1717BCDD00F6C8D9 /* ViewController.xib */; };
+		356F8DA51717BDFD00F6C8D9 /* BlockImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F8DA41717BDFD00F6C8D9 /* BlockImagePickerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		356F8D7D1717BCDD00F6C8D9 /* TestImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356F8D7D1717BCDD00F6C8D9 /* BlockImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356F8D801717BCDD00F6C8D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		356F8D821717BCDD00F6C8D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		356F8D841717BCDD00F6C8D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		356F8D881717BCDD00F6C8D9 /* TestImagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestImagePicker-Info.plist"; sourceTree = "<group>"; };
+		356F8D881717BCDD00F6C8D9 /* BlockImagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockImagePicker-Info.plist"; sourceTree = "<group>"; };
 		356F8D8A1717BCDD00F6C8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		356F8D8C1717BCDD00F6C8D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		356F8D8E1717BCDD00F6C8D9 /* TestImagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestImagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		356F8D8E1717BCDD00F6C8D9 /* BlockImagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockImagePicker-Prefix.pch"; sourceTree = "<group>"; };
 		356F8D8F1717BCDD00F6C8D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		356F8D901717BCDD00F6C8D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		356F8D921717BCDD00F6C8D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +38,8 @@
 		356F8D981717BCDD00F6C8D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		356F8D991717BCDD00F6C8D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		356F8D9C1717BCDD00F6C8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		356F8DA31717BDFD00F6C8D9 /* BlockImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockImagePickerController.h; sourceTree = "<group>"; };
+		356F8DA41717BDFD00F6C8D9 /* BlockImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockImagePickerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +59,7 @@
 		356F8D741717BCDD00F6C8D9 = {
 			isa = PBXGroup;
 			children = (
-				356F8D861717BCDD00F6C8D9 /* TestImagePicker */,
+				356F8D861717BCDD00F6C8D9 /* BlockImagePicker */,
 				356F8D7F1717BCDD00F6C8D9 /* Frameworks */,
 				356F8D7E1717BCDD00F6C8D9 /* Products */,
 			);
@@ -65,7 +68,7 @@
 		356F8D7E1717BCDD00F6C8D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				356F8D7D1717BCDD00F6C8D9 /* TestImagePicker.app */,
+				356F8D7D1717BCDD00F6C8D9 /* BlockImagePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,26 +83,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		356F8D861717BCDD00F6C8D9 /* TestImagePicker */ = {
+		356F8D861717BCDD00F6C8D9 /* BlockImagePicker */ = {
 			isa = PBXGroup;
 			children = (
 				356F8D8F1717BCDD00F6C8D9 /* AppDelegate.h */,
 				356F8D901717BCDD00F6C8D9 /* AppDelegate.m */,
+				356F8DA31717BDFD00F6C8D9 /* BlockImagePickerController.h */,
+				356F8DA41717BDFD00F6C8D9 /* BlockImagePickerController.m */,
 				356F8D981717BCDD00F6C8D9 /* ViewController.h */,
 				356F8D991717BCDD00F6C8D9 /* ViewController.m */,
 				356F8D9B1717BCDD00F6C8D9 /* ViewController.xib */,
 				356F8D871717BCDD00F6C8D9 /* Supporting Files */,
 			);
-			path = TestImagePicker;
+			name = BlockImagePicker;
+			path = BlockImagePicker;
 			sourceTree = "<group>";
 		};
 		356F8D871717BCDD00F6C8D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				356F8D881717BCDD00F6C8D9 /* TestImagePicker-Info.plist */,
+				356F8D881717BCDD00F6C8D9 /* BlockImagePicker-Info.plist */,
 				356F8D891717BCDD00F6C8D9 /* InfoPlist.strings */,
 				356F8D8C1717BCDD00F6C8D9 /* main.m */,
-				356F8D8E1717BCDD00F6C8D9 /* TestImagePicker-Prefix.pch */,
+				356F8D8E1717BCDD00F6C8D9 /* BlockImagePicker-Prefix.pch */,
 				356F8D921717BCDD00F6C8D9 /* Default.png */,
 				356F8D941717BCDD00F6C8D9 /* Default@2x.png */,
 				356F8D961717BCDD00F6C8D9 /* Default-568h@2x.png */,
@@ -110,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		356F8D7C1717BCDD00F6C8D9 /* TestImagePicker */ = {
+		356F8D7C1717BCDD00F6C8D9 /* BlockImagePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 356F8DA01717BCDD00F6C8D9 /* Build configuration list for PBXNativeTarget "TestImagePicker" */;
+			buildConfigurationList = 356F8DA01717BCDD00F6C8D9 /* Build configuration list for PBXNativeTarget "BlockImagePicker" */;
 			buildPhases = (
 				356F8D791717BCDD00F6C8D9 /* Sources */,
 				356F8D7A1717BCDD00F6C8D9 /* Frameworks */,
@@ -122,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = TestImagePicker;
-			productName = TestImagePicker;
-			productReference = 356F8D7D1717BCDD00F6C8D9 /* TestImagePicker.app */;
+			name = BlockImagePicker;
+			productName = BlockImagePicker;
+			productReference = 356F8D7D1717BCDD00F6C8D9 /* BlockImagePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +142,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Wipoo Shinsirikul";
 			};
-			buildConfigurationList = 356F8D781717BCDD00F6C8D9 /* Build configuration list for PBXProject "TestImagePicker" */;
+			buildConfigurationList = 356F8D781717BCDD00F6C8D9 /* Build configuration list for PBXProject "BlockImagePicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				356F8D7C1717BCDD00F6C8D9 /* TestImagePicker */,
+				356F8D7C1717BCDD00F6C8D9 /* BlockImagePicker */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +182,7 @@
 				356F8D8D1717BCDD00F6C8D9 /* main.m in Sources */,
 				356F8D911717BCDD00F6C8D9 /* AppDelegate.m in Sources */,
 				356F8D9A1717BCDD00F6C8D9 /* ViewController.m in Sources */,
+				356F8DA51717BDFD00F6C8D9 /* BlockImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +220,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -226,8 +234,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -244,14 +254,17 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -260,10 +273,14 @@
 		356F8DA11717BCDD00F6C8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestImagePicker/TestImagePicker-Prefix.pch";
-				INFOPLIST_FILE = "TestImagePicker/TestImagePicker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlockImagePicker/BlockImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "BlockImagePicker/BlockImagePicker-Info.plist";
+				PRODUCT_NAME = BlockImagePicker;
+				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,10 +288,14 @@
 		356F8DA21717BCDD00F6C8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestImagePicker/TestImagePicker-Prefix.pch";
-				INFOPLIST_FILE = "TestImagePicker/TestImagePicker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BlockImagePicker/BlockImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "BlockImagePicker/BlockImagePicker-Info.plist";
+				PRODUCT_NAME = BlockImagePicker;
+				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		356F8D781717BCDD00F6C8D9 /* Build configuration list for PBXProject "TestImagePicker" */ = {
+		356F8D781717BCDD00F6C8D9 /* Build configuration list for PBXProject "BlockImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				356F8D9E1717BCDD00F6C8D9 /* Debug */,
@@ -291,13 +312,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		356F8DA01717BCDD00F6C8D9 /* Build configuration list for PBXNativeTarget "TestImagePicker" */ = {
+		356F8DA01717BCDD00F6C8D9 /* Build configuration list for PBXNativeTarget "BlockImagePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				356F8DA11717BCDD00F6C8D9 /* Debug */,
 				356F8DA21717BCDD00F6C8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
