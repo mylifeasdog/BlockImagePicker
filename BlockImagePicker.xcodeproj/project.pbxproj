@@ -219,8 +219,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -235,8 +235,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -253,8 +253,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -262,8 +262,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -272,14 +272,14 @@
 		356F8DA11717BCDD00F6C8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockImagePicker/BlockImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "BlockImagePicker/BlockImagePicker-Info.plist";
 				PRODUCT_NAME = BlockImagePicker;
-				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,14 +287,14 @@
 		356F8DA21717BCDD00F6C8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Natsakon Kiatsuranon (43SU3NJ3P2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockImagePicker/BlockImagePicker-Prefix.pch";
 				INFOPLIST_FILE = "BlockImagePicker/BlockImagePicker-Info.plist";
 				PRODUCT_NAME = BlockImagePicker;
-				PROVISIONING_PROFILE = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63BB315B-3645-4D6C-9E49-7830EA6B1394";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
